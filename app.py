@@ -2,7 +2,6 @@ import gradio as gr
 import tensorflow as tf
 import numpy as np
 
-# Load your trained generator
 generator = tf.keras.models.load_model("face_generator.keras")
 LATENT_DIM = 100
 
