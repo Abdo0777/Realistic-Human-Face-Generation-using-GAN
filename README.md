@@ -56,16 +56,6 @@ python app.py
 
 Then open the local URL Gradio prints in your terminal.
 
-## 📁 Repository Structure
-
-```
-├── README.md
-├── train_gan.ipynb        # Full training notebook
-├── app.py                 # Gradio demo app
-├── face_generator.keras   # Trained generator weights
-├── requirements.txt
-└── samples/                # Generated face samples across training
-```
 
 ## 🛠️ Tech Stack
 
@@ -74,9 +64,6 @@ Then open the local URL Gradio prints in your terminal.
 - **NumPy / Matplotlib** — data handling and visualization
 - **Kaggle GPU** — training environment
 
-## 📌 Notes & Limitations
-
-This is a from-scratch DCGAN, not a state-of-the-art architecture like StyleGAN — results show recognizable, varied faces with some artifacts (occasional texture noise, distorted features on failure cases), which is expected at this scale and training budget. The project's goal is to demonstrate a correct, working understanding of GAN architecture and adversarial training dynamics rather than to match production-grade face synthesis quality.
 
 ## 🙏 Acknowledgments
 
